@@ -1,0 +1,45 @@
+{
+  "name": "wifi-security",
+  "version": "0.0.1",
+  "description": "Get current wifi network security type.",
+  "main": "index.js",
+  "bin": {
+    "wifi-security": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/wifi-security"
+  },
+  "keywords": [
+    "wifi",
+    "network",
+    "security",
+    "name",
+    "ifconfig",
+    "iwconfig",
+    "80211"
+  ],
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "https://miguelmota.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/miguelmota/wifi-security/blob/master/LICENSE.md"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelmota/wifi-security/issues"
+  },
+  "homepage": "https://github.com/miguelmota/wifi-security",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=7.9.0"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.8"
+  }
+}
